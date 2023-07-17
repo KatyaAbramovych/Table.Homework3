@@ -9,41 +9,45 @@
     <style>
         .stc {
             text-align: center;
+        }
 
+        .ktc {
+            background: yellow;
+        }
+
+        .btc {
+            background: rgb(42, 132, 235);
         }
     </style>
 </head>
-
 <body>
     <table width="600" border="1" cellspacing="2">
         <tbody class="stc">
             <tr>
-                <td bgcolor="#00BFFF" colspan="3">MY FIRST TABLE</td>
+                <td colspan="3" class="btc">MY FIRST TABLE</td>
             </tr>
             <tr>
-                <td bgcolor="#00BFFF">First cell</td>
-                <td bgcolor="#00BFFF">Second cell</td>
-                <td rowspan="3" bgcolor="#FFFF00">6 cells merged together</td>
+                <td class="btc">First cell</td>
+                <td class="btc">Second cell</td>
+                <td rowspan="3" class="ktc">6 cells merged together</td>
             </tr>
             <tr>
-                <td colspan="2" bgcolor="#FFFF00">2 cells merged into one</td>
+                <td colspan="2" class="ktc">2 cells merged into one</td>
             </tr>
             <tr>
-                <td bgcolor="#FFFF00">
+                <td class="ktc">
                     <p>1 st cell</p>
                     <p>3rd row</p>
                 </td>
-                <td bgcolor="#FFFF00">
+                <td class="ktc">
                     <p>2nd cell</p>
                     <p>3rd row</p>
                 </td>
             </tr>
             <tr>
-                <td colspan="3" bgcolor="#FFFF00">Do you like tables?</td>
+                <td colspan="3" class="ktc">Do you like tables?</td>
             </tr>
         </tbody>
     </table>
-
 </body>
-
 </html>
